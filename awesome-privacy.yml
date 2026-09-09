@@ -43,21 +43,6 @@ categories:
     - name: Password Managers
       alternativeTo: ['LastPass', '1Password', 'Dashlane', 'NordPass', 'RoboForm']
       services:
-      - name: Privacy Bar
-        description: |
-          A zero-knowledge, serverless Chrome extension for local security operations.
-          Features vault-less password synthesis, client-side text and file encryption,
-          image steganography, NIST-standardized ML-KEM post-quantum key encapsulation, and two kinds of page isolation.
-          Operates 100% in local browser memory with zero cloud backends, tracking, or external API calls.
-        url: https://privacybar.net
-        github: https://github.com/fruiz500/Privacy-Bar
-        icon: https://raw.githubusercontent.com/fruiz500/Privacy-Bar/main/icons/icon128.png
-        categories:
-          - security
-          - browser-extensions
-        license: PolyForm Shield License 1.0.0
-        isOpenSource: true
-  
       - name: Bitwarden
         url: https://bitwarden.com
         followWith: Self-Hosted
@@ -198,6 +183,21 @@ categories:
         [Mitro](https://www.mitro.co), [Rattic](https://spideroak.com/encryptr),
         [JPasswords](http://jpws.sourceforge.net/jpasswords.html), [Passopolis](https://passopolis.com),
         [KYPS](https://en.wikipedia.org/wiki/KYPS), [Factotum](http://man.9front.org/4/factotum).
+
+      - name: Privacy Bar
+        description: |
+          A zero-knowledge, serverless Chrome extension for local security operations.
+          Features vault-less password synthesis, client-side text and file encryption,
+          image steganography, NIST-standardized ML-KEM post-quantum key encapsulation, and two kinds of page isolation.
+          Operates 100% in local browser memory with zero cloud backends, tracking, or external API calls.
+        url: https://privacybar.net
+        github: https://github.com/fruiz500/Privacy-Bar
+        icon: https://raw.githubusercontent.com/fruiz500/Privacy-Bar/main/icons/icon128.png
+        categories:
+          - security
+          - browser-extensions
+        license: PolyForm Shield License 1.0.0
+        isOpenSource: false
 
     #####################################
     ###### 2-Factor Authentication ######
@@ -350,22 +350,7 @@ categories:
     #############################
     - name: File Encryption
       alternativeTo: ['VeraCrypt', 'BitLocker', 'FileVault', 'AxCrypt', 'WinRAR']
-      services:
-      - name: Privacy Bar
-        description: |
-          A zero-knowledge, serverless Chrome extension for local security operations.
-          Features vault-less password synthesis, client-side text and file encryption,
-          image steganography, NIST-standardized ML-KEM post-quantum key encapsulation, and two kinds of page isolation.
-          Operates 100% in local browser memory with zero cloud backends, tracking, or external API calls.
-        url: https://privacybar.net
-        github: https://github.com/fruiz500/Privacy-Bar
-        icon: https://raw.githubusercontent.com/fruiz500/Privacy-Bar/main/icons/icon128.png
-        categories:
-          - security
-          - browser-extensions
-        license: PolyForm Shield License 1.0.0
-        isOpenSource: true
-        
+      services:        
       - name: VeraCrypt
         url: https://www.veracrypt.fr
         icon: https://veracrypt.fr/favicon.ico
@@ -430,7 +415,6 @@ categories:
           for use within user local directories. [geli](https://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8)
           is a disk encryption subsystem included with FreeBSD.
 
-
       - name: BitLocker
         url: https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview
         description: >
@@ -447,6 +431,21 @@ categories:
         description: |
           Windows-only, open source, file and volume encryption solution,
           that makes a good alternative to BitLocker.
+
+      - name: Privacy Bar
+        description: |
+          A zero-knowledge, serverless Chrome extension for local security operations.
+          Features vault-less password synthesis, client-side text and file encryption,
+          image steganography, NIST-standardized ML-KEM post-quantum key encapsulation, and two kinds of page isolation.
+          Operates 100% in local browser memory with zero cloud backends, tracking, or external API calls.
+        url: https://privacybar.net
+        github: https://github.com/fruiz500/Privacy-Bar
+        icon: https://raw.githubusercontent.com/fruiz500/Privacy-Bar/main/icons/icon128.png
+        categories:
+          - security
+          - browser-extensions
+        license: PolyForm Shield License 1.0.0
+        isOpenSource: false
 
     ######################
     ###### Browsers ######
@@ -879,22 +878,7 @@ categories:
         this applies to Gmail, Outlook Mail, Yahoo Mail, GMX, ZoHo, iCloud, AOL and more.<br><br>
         For a more details comparison of email providers, see
         [email-comparison.as93.net](https://email-comparison.as93.net/)
-      services:
-      - name: Privacy Bar
-        description: |
-          A zero-knowledge, serverless Chrome extension for local security operations.
-          Features vault-less password synthesis, client-side text and file encryption,
-          image steganography, NIST-standardized ML-KEM post-quantum key encapsulation, and two kinds of page isolation.
-          Operates 100% in local browser memory with zero cloud backends, tracking, or external API calls.
-        url: https://privacybar.net
-        github: https://github.com/fruiz500/Privacy-Bar
-        icon: https://raw.githubusercontent.com/fruiz500/Privacy-Bar/main/icons/icon128.png
-        categories:
-          - security
-          - browser-extensions
-        license: PolyForm Shield License 1.0.0
-        isOpenSource: true
-        
+      services:        
       - name: ProtonMail
         url: https://protonmail.com
         icon: https://proton.me/favicons/android-chrome-192x192.png
@@ -983,6 +967,21 @@ categories:
         your or the recipient's private key is ever stolen, all previous messages
         encrypted with it will be exposed. You should take great care to keep your
         private keys safe.
+
+      - name: Privacy Bar
+        description: |
+          A zero-knowledge, serverless Chrome extension for local security operations.
+          Features vault-less password synthesis, client-side text and file encryption,
+          image steganography, NIST-standardized ML-KEM post-quantum key encapsulation, and two kinds of page isolation.
+          Operates 100% in local browser memory with zero cloud backends, tracking, or external API calls.
+        url: https://privacybar.net
+        github: https://github.com/fruiz500/Privacy-Bar
+        icon: https://raw.githubusercontent.com/fruiz500/Privacy-Bar/main/icons/icon128.png
+        categories:
+          - security
+          - browser-extensions
+        license: PolyForm Shield License 1.0.0
+        isOpenSource: false
 
     ###########################
     ###### Email Clients ######
@@ -3072,21 +3071,6 @@ categories:
     - name: Digital Notes
       alternativeTo: ['evernote', 'microsoft onenote', 'google keep', 'apple notes', 'simplenote', 'notion']
       services:
-      - name: Privacy Bar
-        description: |
-          A zero-knowledge, serverless Chrome extension for local security operations.
-          Features vault-less password synthesis, client-side text and file encryption,
-          image steganography, NIST-standardized ML-KEM post-quantum key encapsulation, and two kinds of page isolation.
-          Operates 100% in local browser memory with zero cloud backends, tracking, or external API calls.
-        url: https://privacybar.net
-        github: https://github.com/fruiz500/Privacy-Bar
-        icon: https://raw.githubusercontent.com/fruiz500/Privacy-Bar/main/icons/icon128.png
-        categories:
-          - security
-          - browser-extensions
-        license: PolyForm Shield License 1.0.0
-        isOpenSource: true
-        
       - name: Standard Notes
         url: https://standardnotes.com
         github: standardnotes/app
@@ -3230,6 +3214,21 @@ categories:
         where all entries are formatted with markdown.
         [Bangle.io](https://app.bangle.io) is a local-first WYSIWYG Markdown notes PWA,
         storing notes in browser storage or user-selected folders.
+
+      - name: Privacy Bar
+        description: |
+          A zero-knowledge, serverless Chrome extension for local security operations.
+          Features vault-less password synthesis, client-side text and file encryption,
+          image steganography, NIST-standardized ML-KEM post-quantum key encapsulation, and two kinds of page isolation.
+          Operates 100% in local browser memory with zero cloud backends, tracking, or external API calls.
+        url: https://privacybar.net
+        github: https://github.com/fruiz500/Privacy-Bar
+        icon: https://raw.githubusercontent.com/fruiz500/Privacy-Bar/main/icons/icon128.png
+        categories:
+          - security
+          - browser-extensions
+        license: PolyForm Shield License 1.0.0
+        isOpenSource: false
 
     ######################
     ###### Calendar ######
