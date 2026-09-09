@@ -43,6 +43,21 @@ categories:
     - name: Password Managers
       alternativeTo: ['LastPass', '1Password', 'Dashlane', 'NordPass', 'RoboForm']
       services:
+      - name: Privacy Bar
+        description: |
+          A zero-knowledge, serverless Chrome extension for local security operations.
+          Features vault-less password synthesis, client-side text and file encryption,
+          image steganography, NIST-standardized ML-KEM post-quantum key encapsulation, and two kinds of page isolation.
+          Operates 100% in local browser memory with zero cloud backends, tracking, or external API calls.
+        url: https://privacybar.net
+        github: https://github.com/fruiz500/Privacy-Bar
+        icon: https://raw.githubusercontent.com/fruiz500/Privacy-Bar/main/icons/icon128.png
+        categories:
+          - security
+          - browser-extensions
+        license: PolyForm Shield License 1.0.0
+        isOpenSource: true
+  
       - name: Bitwarden
         url: https://bitwarden.com
         followWith: Self-Hosted
@@ -336,6 +351,21 @@ categories:
     - name: File Encryption
       alternativeTo: ['VeraCrypt', 'BitLocker', 'FileVault', 'AxCrypt', 'WinRAR']
       services:
+      - name: Privacy Bar
+        description: |
+          A zero-knowledge, serverless Chrome extension for local security operations.
+          Features vault-less password synthesis, client-side text and file encryption,
+          image steganography, NIST-standardized ML-KEM post-quantum key encapsulation, and two kinds of page isolation.
+          Operates 100% in local browser memory with zero cloud backends, tracking, or external API calls.
+        url: https://privacybar.net
+        github: https://github.com/fruiz500/Privacy-Bar
+        icon: https://raw.githubusercontent.com/fruiz500/Privacy-Bar/main/icons/icon128.png
+        categories:
+          - security
+          - browser-extensions
+        license: PolyForm Shield License 1.0.0
+        isOpenSource: true
+        
       - name: VeraCrypt
         url: https://www.veracrypt.fr
         icon: https://veracrypt.fr/favicon.ico
@@ -850,6 +880,21 @@ categories:
         For a more details comparison of email providers, see
         [email-comparison.as93.net](https://email-comparison.as93.net/)
       services:
+      - name: Privacy Bar
+        description: |
+          A zero-knowledge, serverless Chrome extension for local security operations.
+          Features vault-less password synthesis, client-side text and file encryption,
+          image steganography, NIST-standardized ML-KEM post-quantum key encapsulation, and two kinds of page isolation.
+          Operates 100% in local browser memory with zero cloud backends, tracking, or external API calls.
+        url: https://privacybar.net
+        github: https://github.com/fruiz500/Privacy-Bar
+        icon: https://raw.githubusercontent.com/fruiz500/Privacy-Bar/main/icons/icon128.png
+        categories:
+          - security
+          - browser-extensions
+        license: PolyForm Shield License 1.0.0
+        isOpenSource: true
+        
       - name: ProtonMail
         url: https://protonmail.com
         icon: https://proton.me/favicons/android-chrome-192x192.png
@@ -3027,6 +3072,21 @@ categories:
     - name: Digital Notes
       alternativeTo: ['evernote', 'microsoft onenote', 'google keep', 'apple notes', 'simplenote', 'notion']
       services:
+      - name: Privacy Bar
+        description: |
+          A zero-knowledge, serverless Chrome extension for local security operations.
+          Features vault-less password synthesis, client-side text and file encryption,
+          image steganography, NIST-standardized ML-KEM post-quantum key encapsulation, and two kinds of page isolation.
+          Operates 100% in local browser memory with zero cloud backends, tracking, or external API calls.
+        url: https://privacybar.net
+        github: https://github.com/fruiz500/Privacy-Bar
+        icon: https://raw.githubusercontent.com/fruiz500/Privacy-Bar/main/icons/icon128.png
+        categories:
+          - security
+          - browser-extensions
+        license: PolyForm Shield License 1.0.0
+        isOpenSource: true
+        
       - name: Standard Notes
         url: https://standardnotes.com
         github: standardnotes/app
